@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="ratingHeaderTextView" type="id" />
+    <item name="HeaderTextView" type="id" />
+    <item name="TextView" type="id" />
+</resources>

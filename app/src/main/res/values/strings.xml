@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">JunioRetrofit</string>
+    <string name="button">Otro</string>
+    <string name="Siguiente">Siguiente</string>
+    <string name="spinner1">San Fernando</string>
+    <string name="spinner2">Cádiz</string>
+    <string name="fecha">Fecha del Cuidado</string>
+    <string name="fragmentoAyuda">Kangudog es una App que te ayudará a encontrar un cuidador para tu mascota</string>
+    <string name="checkb">Si Marca la casilla El cuidador se estanciará en su casa durante el cuidado de su mascota</string>
+    <string name="radiob1">Perro</string>
+    <string name="radiob2">Gato</string>
+    <string name="modificar">Modificar</string>
+    <string name="txtImput">Nombre de su mascota</string>
+    <string-array name="Localidades">
+        <item>Cádiz</item>
+        <item>San Fernando</item>
+    </string-array>
+
+</resources>

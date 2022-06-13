@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmento1">
+
+    <fragment
+        android:id="@+id/fragmento1"
+        android:name="com.example.junioretrofit.ui.view.Fragmento1"
+        android:label="fragment_fragmento1"
+        tools:layout="@layout/fragment_fragmento1" >
+        <action
+            android:id="@+id/action_fragmento1_to_fragmento2"
+            app:destination="@id/fragmento2" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmento2"
+        android:name="com.example.junioretrofit.ui.view.Fragmento2"
+        android:label="fragment_fragmento2"
+        tools:layout="@layout/fragment_fragmento2" >
+        <action
+            android:id="@+id/action_fragmento2_to_fragmento3"
+            app:destination="@id/fragmento3" />
+        <argument
+            android:name="Ciudad"
+            app:argType="string"
+            android:defaultValue="San Fernando" />
+        <action
+            android:id="@+id/action_fragmento2_to_fragmento1"
+            app:destination="@id/fragmento1" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmento3"
+        android:name="com.example.junioretrofit.ui.view.Fragmento3"
+        android:label="fragment_fragmento3"
+        tools:layout="@layout/fragment_fragmento3" >
+        <action
+            android:id="@+id/action_fragmento3_to_fragmento1"
+            app:destination="@id/fragmento1" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentoAyuda"
+        android:name="com.example.junioretrofit.ui.view.FragmentoAyuda"
+        android:label="FragmentoAyuda" />
+</navigation>
